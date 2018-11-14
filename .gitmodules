@@ -1,0 +1,3 @@
+[submodule "AsyncIO"]
+	path = AsyncIO
+	url = https://github.com/valeriob/AsyncIO.git

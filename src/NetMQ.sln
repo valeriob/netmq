@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "remote_lat", "Performance\r
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "remote_thr", "Performance\remote_thr\remote_thr.csproj", "{D82A477F-5C47-4AD3-8595-09A1F0158365}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncIO", "..\AsyncIO\Source\AsyncIO\AsyncIO.csproj", "{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,18 @@ Global
 		{D82A477F-5C47-4AD3-8595-09A1F0158365}.Release|x64.Build.0 = Release|Any CPU
 		{D82A477F-5C47-4AD3-8595-09A1F0158365}.Release|x86.ActiveCfg = Release|Any CPU
 		{D82A477F-5C47-4AD3-8595-09A1F0158365}.Release|x86.Build.0 = Release|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Debug|x64.Build.0 = Debug|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Debug|x86.Build.0 = Debug|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Release|x64.ActiveCfg = Release|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Release|x64.Build.0 = Release|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{F140551A-D40B-45FF-99BA-6A9A04BD8BA0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

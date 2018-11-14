@@ -55,11 +55,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AsyncIO" Version="0.1.40" />
+    <ProjectReference Include="..\..\AsyncIO\Source\AsyncIO\AsyncIO.csproj" />
     <PackageReference Include="JetBrains.Annotations" Version="10.4.0">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6' ">
     <PackageReference Include="System.ServiceModel.Primitives" Version="4.1.0" />
@@ -107,9 +108,5 @@
     <Reference Include="System.ServiceModel" />
   </ItemGroup>
 -->
-
-  <ItemGroup>
-    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.7.4" PrivateAssets="All" />
-  </ItemGroup>
 
 </Project>
